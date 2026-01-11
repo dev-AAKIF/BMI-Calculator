@@ -32,7 +32,6 @@ form.addEventListener("submit", function(e) {
             bmiResult.style.color = "#ffe"
         } else  {
             bmiResult.innerHTML = `Your BMI is in Average Range : ${bmi}`
-            bmiResult.innerHTML = `${bmi}`
             bmiResult.style.backgroundColor = "#16A34A"
             bmiResult.style.color = "#000"
         }
